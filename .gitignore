@@ -1,0 +1,11 @@
+**/cache
+assets/bootstrap/
+assets/docs/
+*.thumbs
+assets/backup/
+assets/export/
+assets/files/
+assets/images/
+assets/import/
+assets/plugins/
+manager/

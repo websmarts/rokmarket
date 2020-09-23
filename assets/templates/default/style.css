@@ -1,0 +1,145 @@
+body {
+    background: #fff;
+}
+
+.flash_message { padding: 20px; background: #eeeeff; border-left: 4px solid #8888ff; color: #8888ff; font-weight: bold;}
+.form_validation_messages { padding: 20px; background: #ffeeff; border-left: 4px solid #cc88cc; color: #cc88cc; font-weight: bold;}
+
+.container { 
+    background: #fff;
+    width: 1144px;
+    padding-left: 2px;
+    padding-right: 2px;
+    border: 0px solid #ccc;
+}
+
+/* Form errors validation message */
+.errors {
+    background: #cc0000;
+    color: #fff;
+    padding: 6px;
+}
+.required{
+    border: 1px solid #cc0000;
+}
+.invalid_input{
+    background: #ffcccc;
+}
+
+#right-panel {
+    background: #fff;
+    padding:10px;
+} 
+h1 {
+    margin-bottom: 20px;
+    /* color:#95bc43; */
+    color: #333;
+}
+
+#appmenu {
+    margin-bottom: 10px;
+}
+
+a.my-navbar-brand, a:hover.my-navbar-brand,a:visited.my-navbar-brand  {
+    text-decoration: none;
+    font-size:189%;
+    color: #333;
+}
+#header { margin-top:5px;overflow:hidden;height:98px;}
+#header img { float: left;}
+#header nav {margin-left:300px;}
+.navbar-default {
+    background: #367;    /*  navbar background*/
+    margin-top:1px;
+}
+.navbar-default .navbar-nav > li > a {
+    color: #fff;
+}
+.navbar {
+    min-height:42px;
+    border-radius: 0;
+    border: 0;
+    border-color: #ccc;
+}
+ul.navbar-nav li a{
+    padding: 10px;
+}
+.navbar-default .navbar-nav > li > a:hover {
+    color: #eee;
+}
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+    background-color: #478;
+    color: #fff;
+}
+
+
+#footer {
+    text-align: center;
+    padding: 8px;
+    margin-top:15px;
+    border-top: 1px dotted #333;
+}
+/* Office applications styles below here */
+.section-menu{
+    padding-bottom:5px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #42bbca;
+}
+
+table.data-table {
+    
+}
+.data-table th {
+    font-weight: normal;
+    
+}
+
+
+table.data-table  tbody {border: 1px solid #333;}
+
+/** Bootstrap Tweaks **/
+.panel-primary {
+    border-color: #005C40;
+}
+.panel-primary > .panel-heading {
+    background-color: #007755;
+    border-color: #007755;
+    color: #FFFFFF;
+}
+.btn-default {
+    background-color: #eeeeee;
+    border-color: #CCCCCC;
+    color: #333333;
+}
+
+/** folder-nav snippet styles **/
+#folder-nav a {
+    font-size:140%;
+    font-weight: bold;
+}
+#folder-nav li {
+    border-bottom: 1px dashed #888;
+    padding-bottom:10px;
+}
+.resource_summary {
+    font-style: italic;
+    padding-left:30px;
+}
+
+
+
+div.disabled {
+    
+}
+
+/* Market directorlisting styles */
+.stallholder { background: #fff;padding:5px; margin-bottom:5px; border-top: 1px solid #ccc;}
+.stallholder h3 { float:left; margin: 0; font-size:10pt; color: #555; font-weight: bold;}
+.stallholder p.sitenum {float:right}
+.stallholder p.desc {clear: both; margin: 0 20px 10px 10px; font-style:italic}
+
+.panel-default>.panel-heading {
+color: #fff;
+background-color: #367;/*6e3903*/
+border-color: #ddd;
+}

@@ -1,0 +1,3 @@
+// start up tws framework
+//Events onWebpageInit and onManagerPageInit
+include_once MODX_BASE_PATH .  'assets/extends/tws/init.php';

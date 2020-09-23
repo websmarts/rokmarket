@@ -1,0 +1,30 @@
+body {
+    font-family: arial, san-serif;
+    text-align: left;
+    
+}
+div.container {
+    text-align: left;
+}
+#header{
+    display: none;
+    
+}
+
+#appmenu, #list, .noprint {display: none;}
+a[href]:after { display:none; } 
+
+#footer {
+    display: none;
+    
+    
+}
+
+#main_nav ul {
+    margin-left:7px;
+   
+    
+    /*overflow:hidden;*/
+}
+
+
